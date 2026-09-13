@@ -1,0 +1,3719 @@
+[
+  {
+    "group": "api_proxy",
+    "name": "Canvas - API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas (Power Automate)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Canvas - API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Canvas - API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IMMS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Canvas - API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "NUSHUB - OnBoarding Data API Proxy (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "[NUSHub] Student Onboarding AI Buddy",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Accredible SaaS API",
+    "sourceTower": "External Parties",
+    "subscriber": "Accredible",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Accredible SaaS API",
+    "sourceTower": "External Parties",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Accredible SaaS API",
+    "sourceTower": "External Parties",
+    "subscriber": "NUS Event Management System (UVENT)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Accredible SaaS API",
+    "sourceTower": "External Parties",
+    "subscriber": "SCALE Online Registration System (SORS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Astronaut API",
+    "sourceTower": "External Parties",
+    "subscriber": "UAS2 Administrator Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "BOSS - FS2 Journal Posting",
+    "sourceTower": "Infrastructure",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "CMIS - Get Class Lecturer - v2",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Teaching Workload Management System (TWMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "CMS - OAuth2 Get Token API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "CMS - OAuth2 Get Token API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "CMS - Publish API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "CMS - Publish API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "CMS - Publish Ack API - v1",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "CPOAnalyticsProxyIsilon",
+    "sourceTower": "Architecture, Application and Technology (AAT)",
+    "subscriber": "CPOAnalytics Isilon Store (Proxy)",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_proxy",
+    "name": "Cayuse - API",
+    "sourceTower": "External Parties",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Cayuse - Authentication - Basic Auth",
+    "sourceTower": "External Parties",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "DACS-Fabric-GraphQL-EP (PRD)",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Duke NUS Slate - Manage Query",
+    "sourceTower": "Others (NUS Departments)",
+    "subscriber": "Online Photo Verification System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Duke NUS Slate - Query-PRD",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Duke-NUS Slate",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Duke NUS Slate - REST Login",
+    "sourceTower": "Others (NUS Departments)",
+    "subscriber": "Online Photo Verification System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Admission Course Enrolment",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Config - Acad Group",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Config - Acad Org",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Config - Acad Plan",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Config - Acad Program",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Course Quota Update",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - MOE Grant Data",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BTech Subsidy system",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Module",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Module",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Teaching Workload Management System (TWMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - QAS - CustomID",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Teaching Workload Management System (TWMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Student Account Balance",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Student Enrolment",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Student Program",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Upd Award Coll",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Degree Scroll Collection Appointment",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec - Upd Degree Scroll Coll",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Degree Scroll Collection Appointment",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec Course Code (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec Course Code (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "FOE UG Reporting System",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec Course Code (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "USP Integrated Student Information",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec QAS - Zato (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Career+",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec QAS - Zato (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Teaching Workload Management System (TWMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec Student Info Finance Service (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Service Management Tool (SMT)",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_proxy",
+    "name": "EduRec Upd Std Crd Sts (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Power Apps for Concession Card Collection",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_proxy",
+    "name": "Element - Users",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "NUSGS Intranet (NUSGSIW)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Elements - Users - v2",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "NUSGS Intranet (NUSGSIW)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Elsevier Analytics API",
+    "sourceTower": "External Parties",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Business Operation Support System (BOSS)",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Duke-NUS Slate",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Laboratory Materials Purchase Requisition System (LMPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUS Student Work System (NSWS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Online Application Portal (OAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Resource Booking System (REBOKS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Sierra",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Staff Housing Management System (SHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Tenancy Management System (TMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "FS2 API",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "GDA3 - CAS API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Online Photo Verification System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "GDA3 - Manage Query",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "GDA3 - Manage Query",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Online Photo Verification System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "GDA3 - Manage Query",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "GDA3 - REST Login",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "GDA3 - REST Login",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Online Photo Verification System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "GDA3 - REST Login",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Hostel Dining API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Smart Dining System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "IsilonSMT-PRD",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Service Management Tool (SMT)",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_proxy",
+    "name": "LMPRS WBS",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "MED Student Feedback API",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "NSWS API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "NSWS WBS API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "NUS GS Core Public API v1",
+    "sourceTower": "Others (NUS Departments)",
+    "subscriber": "NUSGS Intranet (NUSGSIW)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "NUSHUB - OAuth 2.0 - GET Token URL (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "NUSHUB - OAuth 2.0 - GET Token URL (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "[NUSHub] Student Onboarding AI Buddy",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "ORCID Pub API",
+    "sourceTower": "External Parties",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "OneNUSID Validate Service",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "OneNUSID Verify Service",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "MoSAIC ID System (MIDS)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "OneNUSID Verify Service",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUS-ID (Internet)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Pathfinder prd api",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Pathfinder",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "QR Code Generator",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "QR Code Generator",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "REBOKS - FS2 Journal Posting",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Referee Data (PRD)",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "Academic Talent Recruitment Referee Portal",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Referee Data (PRD)",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "OHR CHRS Recruitment",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Sierra - FS2 Posting Result",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "SuccessFactors Job Requisition (PRD)",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Academic Talent Recruitment Referee Portal",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "TMS - FS2 Service",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "TMS - GENERATE QR CODE",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "TMS-PROD-ICS-proxy",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "TMS-PROD-fs2-callback",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "TSWMS-Fabric-GraphQL-EP (PROD)",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "TSWMS-Fabric-GraphQL-EP (PROD)",
+    "sourceTower": "Faculty and Research Systems (FRS)",
+    "subscriber": "Class Data Management System (CDMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Web Crawler Proxy (PRD)",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "AI-Know Web Crawler",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Webhook_redgate_prod",
+    "sourceTower": "Infrastructure",
+    "subscriber": "Github_webhook_redgate",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Zoom API",
+    "sourceTower": "External Parties",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "Zoom OAuth Token",
+    "sourceTower": "External Parties",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[AI Course Recommender] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "AI Course Recommender",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[AI-MAP] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[APPSEC-#11914] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Fortify Static Application Security Testing Tool",
+    "subscriberTower": "IT Security"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[CTLT-AI-Turnkey-#11981] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook [CTLT-AI-Turnkey-#11981]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[CTLT-Turnkey-panopto-#11990] N8N webhook proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook [CTLT-AI-Turnkey-#11981]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[DACS] Proxy Auth (PRD)",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[DACS] Proxy hostapi (PRD)",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[DE-PORTAL] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook [DE-PORTAL-#11865]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[MBA-MARKET-CV-REVIEWER-#11915] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook [MBA-MARKET-CV-REVIEWER-#11915]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[METADATAGEN-#11900] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook [Lib-metadatagen #11900]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[Mosaic] API Proxy (PRD)",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[Mosaic] API Proxy (PRD)",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUS-ID on-boarding for new staff",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[Mosaic] API Proxy (PRD)",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUS-ID on-boarding for transferred staff",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[Mosaic] API Proxy (PRD)",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "User Accounts Management System",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[Mosaic] API Proxy (PRD)",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "uNivUS API",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[N8N] API Proxy (PRD)",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "AI-Know Frontend",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[NPO-OTV-dev-#11923] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "OFN NPO Project",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[NPO-OTV] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "OFN NPO Project",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[NPO-dev-#11923] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "OFN NPO Project",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[NPO] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "OFN NPO Project",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[NUSHUB] OnBoarding Error Handling API Proxy (PRD)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[NUSMODS-#11907] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook Arthur NUSMods Live Lookup [NUSMOD-#11907]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[NUSMed Cur Map-#11909] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook NUSMed Curriculum Mapping [NUSMed-#11909]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[OUR-HELPDESK-#11874] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook [OUR-HELPDESK-#11874]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[PAMREVIEW-#11862] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "N8N webhook [PAMREVIEW-#11862]",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[Scratchpad] N8N webook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "AI-Know Frontend",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[The Ridge] PRD Salto2 Trevo API Proxy (HTTPS)",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "The Ridge",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[The Ridge] PRD Trevo Kiosk1 Proxy",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "The Ridge",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[The Ridge] PRD Trevo Kiosk2 Proxy",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "The Ridge",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[onb-nushub-#11889] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "[NUSHub] Student Onboarding AI Buddy",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_proxy",
+    "name": "[onbaibuddy-#11889] N8N webhook api proxy",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "[NUSHub] Student Onboarding AI Buddy",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[SMS-VAS] Mobile API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "IAM",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "[SMS-VAS] Mobile API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "ADM - Admission Data Transfer API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Admission DataTransferService_Duke_NUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "ADM - Admission Data Transfer API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "GDA3 (Slate)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "ADM - Admission Data Transfer API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "ADM- Admission Data Transfer Duke API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Admission DataTransferService_Duke_NUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "ADM- Admission Data Transfer GDA3 API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "GDA3 (Slate)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "ADM- Admission Data transfer- Fetch",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "GDA3 (Slate)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "BBCRM - Alumni Email Signup API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "BBCRM - Alumni Email Signup API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "uNivUS API",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "BBCRM API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Blackbaud CRM (BBCRM)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "BBCRM Set Receipt Api",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Blackbaud CRM (BBCRM)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "BLUE RabbitMQ API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Blue - Student Feedback System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Academic Development Management System",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Blackbaud CRM (BBCRM)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Conflict of Interest",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Duke-NUS People Manager",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "EHS360",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Elements",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Emergency, Health and Safety 360 (EHS360)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "GDA3 (Slate)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "IAM",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Integrated Research Information Management Suite (iRIMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Laboratory Materials Purchase Requisition System (LMPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Library (Patron Record Creation)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUS Cloud Assessment Application",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUS Occupational Health Registry 2",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUSGS Intranet (NUSGSIW)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Nintex K2 Forms/Workflow – CHRS SAP Leave information Sync job",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "ODS ETL",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "One-NUS ID",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Research Resources Management and Budgeting System (REMBS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Smart Card Management System (SCM)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "SoC Staff Particulars",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Software Request System",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Space Planning and Management System (Archibus)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Staff Movement",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Student Research Project Registration System (SRPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "UAS2 Administrator Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS - API Services",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "VUA",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Admission Interview System (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "DEN Longitudinal Learning and Coaching Management (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "FOD SMILE Application",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "HWB CCMS",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Inventory Management System (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "MyUHC",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CHRS ODS API Service",
+    "sourceTower": "HR and Finance Systems",
+    "subscriber": "Personal Data Service Request System",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CMS - API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API  - Request",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API  - Request",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Compliance Tracking System (CTR)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API  - Request",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "DEVideo Data Extraction",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API  - Request",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API  - Request",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Online Application Portal (OAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API  - Request",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API - Create User by Batch",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Canvas Custom API - For CDMS",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Class Data Management System (CDMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CodeTable(Oracle)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI System for Assurance & Evaluation (AI-SAFE)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CodeTable(Oracle)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BMC Helix",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "CodeTable(Oracle)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Code table (Oracle)",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "CodeTable(Oracle)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Cloud Assessment Application",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "CodeTable(Oracle)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "CodeTable(Oracle)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Service Management Tool (SMT)",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_service",
+    "name": "DBS - GIRO API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Dining2_CheckinStatus",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Smart Dining System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Dining2_GetStaffRecord 2",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Smart Dining System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Dining2_GetVisitor_Record",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Smart Dining System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Dining2_Resident_Record",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Smart Dining System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Dining2_StudentTranslate",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Smart Dining System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Awards API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Central Login",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Special Project Tracking",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BTech Subsidy system",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Car Park Management system",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Duke-NUS STARS (STudent Augmented Record System)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "FASS Application for Double Degree Prog. in Econs. - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Management System (LMMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Purchase Requisition System (LMPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Language Preparation Program (LPP) - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MED CA Marks Management - SOMIMMS",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Occupational Health Registry 2",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Student Work System (NSWS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "OTD Travel Notification",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Overseas Travel Declaration System (OTD)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Photo Intelligence & Classification Services (PICS)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SCALE BTech Industrial Practices",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SOC Graduate Assistantship Programme (GAP)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SoM Elentra LMS(CLOUD)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Student Project Administration (UGSPA)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Bio Data API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Teaching Awards Portal - UTAP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Reporting",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Class Data Management System (CDMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Graduate Assistants Management & Part-Time Duty Claims",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Student Work System (NSWS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSMOD",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "One Internship Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Student Project Administration (UGSPA)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Config API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "UAS2 Administrator Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Central Login",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Special Project Tracking",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BTech Subsidy system",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Duke-NUS STARS (STudent Augmented Record System)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "FASS Application for Double Degree Prog. in Econs. - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Graduate Assistants Management & Part-Time Duty Claims",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MED CA Marks Management - SOMIMMS",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Student Project Administration (UGSPA)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "YST ASIMUT Interface",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Enrolment API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - External Education API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - External Education API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - External Education API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "FASS Application for Double Degree Prog. in Econs. - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - External Education API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Language Preparation Program (LPP) - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Financial Aid API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "GAP Hours Management System (MyGAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Financial Aid API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Business Workflows (Helix)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Financial Aid API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SOC Graduate Assistantship Programme (GAP)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Financial Aid API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "UAS2 Administrator Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - MOE_SLSG API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Milestone API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Duke-NUS STARS (STudent Augmented Record System)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Milestone API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Graduate Assistants Management & Part-Time Duty Claims",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Central Login",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Special Project Tracking",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Car Park Management system",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "DEN Longitudinal Learning and Coaching Management (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "FASS Application for Double Degree Prog. in Econs. - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Management System (LMMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Purchase Requisition System (LMPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Language Preparation Program (LPP) - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Student Work System (NSWS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "OTD Travel Notification",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Overseas Travel Declaration System (OTD)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Photo Intelligence & Classification Services (PICS)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SCALE BTech Industrial Practices",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SOC Graduate Assistantship Programme (GAP)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Student Project Administration (UGSPA)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Teaching Awards Portal - UTAP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Profile API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Central Login",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ Special Project Tracking",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BTech Subsidy system",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Car Park Management system",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Duke-NUS STARS (STudent Augmented Record System)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "FASS Application for Double Degree Prog. in Econs. - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Management System (LMMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Purchase Requisition System (LMPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Language Preparation Program (LPP) - FASTAPP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MED CA Marks Management - SOMIMMS",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Occupational Health Registry 2",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Student Work System (NSWS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SCALE BTech Industrial Practices",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SOC Graduate Assistantship Programme (GAP)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SoM Elentra LMS(CLOUD)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Student Project Administration (UGSPA)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Program API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Teaching Awards Portal - UTAP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "AI Know",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BIZ UG Portal",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "BTech Subsidy system",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CTR/Class Attendance Taking (CAS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Data Access Control Portal",
+    "subscriberTower": "Architecture, Application and Technology (AAT)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Degree Scroll Collection Appointment",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Duke-NUS Elentra",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Duke-NUS STARS (STudent Augmented Record System)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "GAP Hours Management System (MyGAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "GLC Bond monitoring system",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Graduate Assistants Management & Part-Time Duty Claims",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "HWB CCMS",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Joint Residential College Admission System",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Library Innopac",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MED Clinical Grouping",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MED Elective System",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Student Work System (NSWS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSGS Intranet (NUSGSIW)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSMed PG Student SST",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Nursing Online Clinical Management",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Photo Intelligence & Classification Services (PICS)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "UAS2 Administrator Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "UAS2 Applicant Portal - OAM",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "YST ASIMUT Interface",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "[NUSHub] Student Onboarding AI Buddy",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec - Student Supervisor API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SOC Graduate Assistantship Programme (GAP)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "EduRec FS2 API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "GDA3-ADM - Admission Data Transfer API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "GDA3 (Slate)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "HAS Admin API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IMMS Get Weighted Marks API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Edurec IMMS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IRAS - BBCRM",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS V2",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IRAS-NUSHUB",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS- BBCRM",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IRAS - BBCRM",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS-BBCRM-POST",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Blackbaud CRM (BBCRM)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS-BBCRM-POST",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IRAS - BBCRM",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS-GET-URL",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IRAS - BBCRM",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS-GET-URL",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IRAS-NUSHUB",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "IRAS-NUSHUB-POST",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IRAS-NUSHUB",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "LocksetAA-Trevo API Service",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "LocksetSalto-Gtriip APIs",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "MyInfoV4 API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Donor Engagement Portal (DEP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "MyInfoV4 API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "MyInfoV4 API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "MyInfoV4 API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Online Application Portal (OAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "OAP - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "OAP - QAS API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SCALE Course Catalog",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "OAP FS2 API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "OCBC - GIRO API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "PSR API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Personal Data Service Request System (PSR)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Password Reset Verification - API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Password Reset Application",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "Portalx 2 API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SFC - API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "2FA SSP and IAM",
+    "subscriberTower": "Architecture, Application and Technology (AAT)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "ASFAS",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "BPPM SMS API",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "CHEMTRACK",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Care Buddy",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Door Access Control (STE) DACS SMS",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Fieldwork",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Honeywell BMS",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "IT Care Self-Service Kiosk",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "JCI_BMS",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Mobile Password Reset",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "My Voice",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "MySQLClusterMonitoring",
+    "subscriberTower": ""
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUS Do Not Call (DNC) Registry",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUS ITS Alerts",
+    "subscriberTower": "IT Security"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "NUSMART",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "OTD Travel Notification",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "One-NUS ID",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Online Clinical Management System",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Overseas Travel Declaration",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "SSHSPH Appointment Booking System 3",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "SolarWinds",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "SMS API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Visitor Registration System (VRS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SSG API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "SSG API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Online Application Portal (OAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Singpass Login API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Smartbuy API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Facility Management System (FMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Smartbuy API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Purchase Requisition System (LMPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Smartbuy API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Smartbuy (Ariba)",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "Tms-bbcrm",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Trevo- Salto STP API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "UAS Check Pin",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "UHMS Edurec Payment (Hostel Fee) API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "UTown Room Booking API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "UTown Facility Booking system",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "UserInfoServiceAPI - Get User Info (non-staff)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "UserInfoServiceAPI - Get User Info (non-staff)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IAM",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "UserInfoServiceAPI - Get User Info (non-staff)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Laboratory Materials Management System (LMMS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "UserInfoServiceAPI - Get User Info (non-staff)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "UserInfoServiceAPI - Get User Info (non-staff)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Personal Data Service Request System",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "UserInfoServiceAPI - Get User Info (non-staff)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Photo Intelligence & Classification Services (PICS)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "UserInfoServiceAPI - Get User Info (non-staff)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Student Research Project Registration System (SRPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VCS API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Visiting Committee System (VCS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Service (V2)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Admission Interview System (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CDE Undergraduate Enhancement Programme",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Conflict of Interest",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "DEN Longitudinal Learning and Coaching Management (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "HWB CCMS",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Inventory Management System (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Business Workflows (Helix)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Occupational Health Registry 2",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Personal Data Service Request System",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Photo Intelligence & Classification Services (PICS)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SoC Staff Particulars",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Student Research Project Registration System (SRPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "UAS2 Administrator Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "VUA - User Info API Services",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Visitor Registration System (VRS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "Zoom JWT Generator",
+    "sourceTower": "External Parties",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [BOSS] Get Extension Number",
+    "sourceTower": "External Parties",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [BOSS] Get Extension Number",
+    "sourceTower": "External Parties",
+    "subscriber": "Student Research Project Registration System (SRPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [ELEMENTS-UIF] Staff User Feed",
+    "sourceTower": "External Parties",
+    "subscriber": "Elements",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [Lib Innopac - Staff] Patron Info Service",
+    "sourceTower": "External Parties",
+    "subscriber": "Library Innopac",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STAFF-PHOTO] Staff Photo by Staff No",
+    "sourceTower": "External Parties",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STAFF-PHOTO] Staff Photo by Staff No",
+    "sourceTower": "External Parties",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "DEN Longitudinal Learning and Coaching Management (Dentistry)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "Door Access Management System (DACS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "Duke-NUS STARS (STudent Augmented Record System)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "Exam Attendance System (EAS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "NUS College Integrated Student Information",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "NUSGS Intranet (NUSGSIW)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "Nursing Online Clinical Management",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API] [STUDENT-PHOTO] - Student Photo by Student ID",
+    "sourceTower": "External Parties",
+    "subscriber": "SoM Elentra LMS(CLOUD)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[API][Location ODS] Location ODS API Service",
+    "sourceTower": "External Parties",
+    "subscriber": "CTR/Class Attendance Taking (CAS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Admissions] Local Account API",
+    "sourceTower": "External Parties",
+    "subscriber": "UAS2 Applicant Portal - OAM",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[BLUE] Course and Teacher Report API",
+    "sourceTower": "External Parties",
+    "subscriber": "Promotion and Tenure System (PTS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[BLUE] Course and Teacher Report API",
+    "sourceTower": "External Parties",
+    "subscriber": "University Teaching Awards Portal - UTAP",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[BLUE] Report Submission API",
+    "sourceTower": "External Parties",
+    "subscriber": "Blue - Student Feedback System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Blue] API Service",
+    "sourceTower": "External Parties",
+    "subscriber": "Blue - Student Feedback System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Common API",
+    "sourceTower": "External Parties",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Common API",
+    "sourceTower": "External Parties",
+    "subscriber": "Graduate Assistants Management & Part-Time Duty Claims",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Common API",
+    "sourceTower": "External Parties",
+    "subscriber": "YST ASIMUT Interface",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Common API",
+    "sourceTower": "External Parties",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Exam Details API",
+    "sourceTower": "External Parties",
+    "subscriber": "CTR/Class Attendance Taking (CAS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Exam Details API",
+    "sourceTower": "External Parties",
+    "subscriber": "Class Data Management System (CDMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Exam Details API",
+    "sourceTower": "External Parties",
+    "subscriber": "Exam Attendance System (EAS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] CMIS Published API",
+    "sourceTower": "External Parties",
+    "subscriber": "NUSMOD",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CMIS] Room Usage API",
+    "sourceTower": "External Parties",
+    "subscriber": "Honeywell Smart and Dynamic Control for LTs",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CTRCAS] Attendance Publish API",
+    "sourceTower": "External Parties",
+    "subscriber": "CTR/Class Attendance Taking (CAS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[CTRCAS] Attendance Retrieval API",
+    "sourceTower": "External Parties",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Canvas] Canvas icalendar",
+    "sourceTower": "External Parties",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Canvas] Custom API - Data",
+    "sourceTower": "External Parties",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Canvas] Custom API - Data",
+    "sourceTower": "External Parties",
+    "subscriber": "Online Application Portal (OAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Canvas] Custom API - Data",
+    "sourceTower": "External Parties",
+    "subscriber": "Promotion and Tenure System (PTS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Canvas] Custom API - Photo",
+    "sourceTower": "External Parties",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Carpark] Staff and Visitor Info API Service",
+    "sourceTower": "External Parties",
+    "subscriber": "Car Park Management system",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[ECMS] DB View API",
+    "sourceTower": "External Parties",
+    "subscriber": "ECMS",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[FBS] Booking API Service",
+    "sourceTower": "External Parties",
+    "subscriber": "Building Management System (AS8)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[FBS] Booking API Service",
+    "sourceTower": "External Parties",
+    "subscriber": "Building Management System (I4)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[FBS] Booking API Service",
+    "sourceTower": "External Parties",
+    "subscriber": "Building Management System (SDE6)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Forex] Forex API",
+    "sourceTower": "External Parties",
+    "subscriber": "Laboratory Materials Purchase Requisition System (LMPRS)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Forex] Forex Data API",
+    "sourceTower": "External Parties",
+    "subscriber": "CPI FS2",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "[GDA3] Non-US Qualification Verification",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "GDA3 - Qualification Verification for NON-US",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[GDA3] Photo Status API (v1)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Online Photo Verification System",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[IAM ACCESS](API) Publish IAM ACCESS API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[IAM ACCESS](API) Publish IAM ACCESS API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IAM",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "[IAM] Access Matrix API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "IAM",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "[LDAP] Common API",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "SCI LKCNHM Collection Management System",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[MDM] Inbound API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[MDM] Inbound API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[MDM] Outbound API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Cloud HR System (CHRS)",
+    "subscriberTower": "HR and Finance Systems"
+  },
+  {
+    "group": "api_service",
+    "name": "[MDM] Outbound API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "EduRec",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[MDM] Outbound API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "Donor Engagement Portal (DEP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[MDM] Outbound API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "[MDM] Outbound API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[NUSHUB] - OnBoarding Outcome",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[NUSHUB] Get Student Records",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[NUSYNC3] Dates API Service (v1)",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "NUSync3",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[Rosetta-MAP] Teaching Workload API",
+    "sourceTower": "Architecture, Application and Technology (AAT)",
+    "subscriber": "My Academic Plan (MAP)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[SMS-VAS] SMS API",
+    "sourceTower": "Architecture, Application and Technology (AAT)",
+    "subscriber": "CyberNUS",
+    "subscriberTower": "IT Security"
+  },
+  {
+    "group": "api_service",
+    "name": "[SMS-VAS] SMS API",
+    "sourceTower": "Architecture, Application and Technology (AAT)",
+    "subscriber": "IAM",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "[SOLID] Application Data - Publish",
+    "sourceTower": "Architecture, Application and Technology (AAT)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[SOLID] Program & Course Offering - Publish",
+    "sourceTower": "Architecture, Application and Technology (AAT)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[SOLID] Registration of Interest - Publish",
+    "sourceTower": "Architecture, Application and Technology (AAT)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[The Ridge][Trevo] Trans-Encryption API Service",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "The Ridge",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] CMS_ODS_CET_ShortCourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] CMS_ODS_CET_ShortCourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] CMS_ODS_CET_ShortCourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] CMS_ODS_CET_ShortCourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Office of Data and Intelligence (ODI)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] Graduate Degree Coursework API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] Graduate Degree Coursework API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] Graduate Degree Coursework API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Office of Data and Intelligence (ODI)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] NUSModsCourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] NUSModsCourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSMOD",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS] YouthProgrammeAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS] YouthProgrammeAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS] YouthProgrammeAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Canvas",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Class Data Management System (CDMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Graduate Assistants Management & Part-Time Duty Claims",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Office of Data and Intelligence (ODI)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Student Project Administration (UGSPA)",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CourseAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "YST ASIMUT Interface",
+    "subscriberTower": "Faculty and Research Systems (FRS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CustomisedCorporateProgramme API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CustomisedCorporateProgramme API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]CustomisedCorporateProgramme API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]Marketing API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS] [CMS-ODS]Marketing API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CMS-ODS CET Micro Credential API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CMS-ODS CET Micro Credential API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CMS-ODS CET Micro Credential API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CMS-ODS CET Micro Credential API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Office of Data and Intelligence (ODI)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CPE_CertificateAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Curriculum Management System (CMS)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CPE_CertificateAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUS Lifelong Learning Application Portal",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CPE_CertificateAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "NUSHub-SOLID",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS]CPE_CertificateAPI",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Office of Data and Intelligence (ODI)",
+    "subscriberTower": "Others (NUS Departments)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS][Lockset AA/Salto] STP API",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[WSS][UHMS] ODS Hostel Summary API Service",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "University Hostel Management System (UHMS)",
+    "subscriberTower": "Corporate Systems (CS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[ZOLOZ] API (v1)",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "MoSAIC ID System Self-Service Portal (MIDS SSP)",
+    "subscriberTower": "Enterprise Systems (ES)"
+  },
+  {
+    "group": "api_service",
+    "name": "[ZOLOZ] API (v1)",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "Online Application Portal (OAP)",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[ZOLOZ] API (v1)",
+    "sourceTower": "Corporate Systems (CS)",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "[eApps] eApps API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "IAM",
+    "subscriberTower": "Infrastructure"
+  },
+  {
+    "group": "api_service",
+    "name": "[eApps] eApps API",
+    "sourceTower": "Enterprise Systems (ES)",
+    "subscriber": "Rosetta Xcelerator",
+    "subscriberTower": "Architecture, Application and Technology (AAT)"
+  },
+  {
+    "group": "api_service",
+    "name": "uNivUS API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  },
+  {
+    "group": "api_service",
+    "name": "uNivUS ECS File API Service",
+    "sourceTower": "Student Systems (SS)",
+    "subscriber": "uNivUS",
+    "subscriberTower": "Student Systems (SS)"
+  }
+]

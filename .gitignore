@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw data — stays local, never pushed to GitHub (root-level only)
+/data/
+
+# Working reference materials (sketches, photos)
+/reference/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment / secrets — never commit
+.env
+.env.*
+*.env
+
+# Claude Code — personal config and memory
+.claude/
+CLAUDE.md
+
+# GitHub Copilot personal instructions
+.github/copilot-instructions.md
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user

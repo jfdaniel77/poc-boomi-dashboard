@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boomi Integration Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="dash-header">
+    <div class="dash-title-row">
+      <div>
+        <div class="dash-org">NUS IT AAT · Integration Team</div>
+        <div class="dash-name">Boomi Integration Dashboard</div>
+      </div>
+      <div id="data-timestamp" class="data-timestamp" aria-live="polite"></div>
+    </div>
+    <div class="group-selector" role="group" aria-label="Connection type filter">
+      <button class="group-btn active" data-group="all">All</button>
+      <button class="group-btn" data-group="proxy">API Proxy</button>
+      <button class="group-btn" data-group="service">API Service</button>
+      <button class="group-btn" data-group="sched">Scheduled</button>
+    </div>
+  </header>
+
+  <!-- Tab bar -->
+  <div id="tab-bar" role="tablist" aria-label="Dashboard sections" class="tab-bar">
+    <button class="tab-btn active" data-tab="overview"     role="tab" aria-selected="true"  aria-controls="tab-overview">Overview</button>
+    <button class="tab-btn"        data-tab="connections"  role="tab" aria-selected="false" aria-controls="tab-connections">Connections</button>
+    <button class="tab-btn"        data-tab="topology"     role="tab" aria-selected="false" aria-controls="tab-topology">Topology</button>
+  </div>
+
+  <!-- Tab panels -->
+  <div id="tab-overview"    class="tab-panel active" role="tabpanel"></div>
+  <div id="tab-connections" class="tab-panel"        role="tabpanel"></div>
+  <div id="tab-topology"    class="tab-panel"        role="tabpanel"></div>
+
+  <!-- CDN libraries (globals available to ES modules below) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

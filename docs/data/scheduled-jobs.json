@@ -1,0 +1,4807 @@
+[
+  {
+    "processName": "#Update Staff Delta Photo in Canvas",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "#Update Student Delta Photo in Canvas",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] Create Sphera user Staff- Delete RUN-6",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "Sphera Client"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[SCHED] Create Sphera user Staff- Modify RUN-5",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "Sphera Client"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[SCHED] EHS360_Find_changes_staff RUN-3",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED][LDAP] GET all LDAP records Student",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS STU Domain"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "processName": "Archibus SPM - CHRS (Delta-Load) V2",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "Boomi API Gateway",
+      "NUS Exchange SMTP (IMAP)",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "(sub) UHMS Term Session",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[BLUE] (impl) Blue Feedback Report Download",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "AtomSphere API Connection",
+      "Blue Connection",
+      "CloudAMQP Quorum"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[BOSS](impl) User Info Service - Get All User Info (non staff) by list of Staff Number",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[BOSS](impl) User Info Service - Get User Info (non-staff) by Staff number",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[CMS-ODS]2ndMajor_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]2nd Major_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]CET_MicroCredential_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]CETMicroCredential_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]CET_ShortCourse_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]CETShortCourse_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]Course_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]Course_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]CPECertificate_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]CPECertificate_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]GraduateDegreeCoursework_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]GraduateDegreeCoursework_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]GraduateDegreeResearch_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]GraduateDegreeResearch_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]Minor_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]Minor_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]Specialisation_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]Specialisation_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]SpecialProgramme_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]SpecialProgramme_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]Track_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]Track_QueueIncrementTriggerProcess"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[CMS-ODS]UndergraduateDegree_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]UndergraduateDegree_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[Full Load] [CMS-ODS-SCHED-GetData] (sub) CET Micro-credential",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CMS Server (OAuth2)",
+      "NUS Exchange SMTP (IMAP)",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[Full Load] [CMS-ODS-SCHED-GetData] (sub) CET Short Course",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CMS Server (OAuth2)",
+      "NUS Exchange SMTP (IMAP)",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[Full Load] [CMS-ODS-SCHED-GetData] (sub) Course",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CMS Server (OAuth2)",
+      "NUS Exchange SMTP (IMAP)",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[Full Load] [CMS-ODS-SCHED-GetData] (sub) CPE(Certificate)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CMS Server (OAuth2)",
+      "NUS Exchange SMTP (IMAP)",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[Full Load] [CMS-ODS-SCHED-GetData] (sub) Graduate Degree Coursework",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CMS Server (OAuth2)",
+      "NUS Exchange SMTP (IMAP)",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[impl] ADM - Admission Data Transfer - Publish",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP Quorum"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[impl] ADM - Admission Data Transfer - Retrieve",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP Quorum"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[IMPL] MyUHC - Generate List of Staffs with multiple NUS IDs",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "MyUHC SFTP",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[IMPL] MyUHC - Populate Staff with Multiple NUS IDs - Redis",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[Impl][CMS-ODS]CustomisedCorporateProgramme_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]CustomisedCorporateProgramme_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[Impl][CMS-ODS]Marketing_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]Marketing_QueueIncrementTriggerProcess"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[Impl][CMS-ODS]YouthProgramme_QueueTriggerProcess",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "[CMS-ODS]YouthProgramme_Increment_Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[Location ODS] (impl) VW_LCTN_MSTR - Main Process",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[MDM] (impl) DB Views to ECS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[NUSHub] SF Utilization",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[NUSync3] (main) Add Membership based on UHMS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUSYNC3_QUEUE",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[NUSync3] (main) Remove Membership based on UHMS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUSYNC3_QUEUE",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[NUSYnc3] (sub) CG Add Membership",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUSYNC3_QUEUE"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[NUSYnc3] (sub) CG Delete Membership",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUSYNC3_QUEUE"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[NUSync3] (sub) Log to ElasticSearch",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUSYNC3_QUEUE"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[NUSync3] (sub) UHMS Booking (Add)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[NUSync3] (sub) UHMS Booking (Remove)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[OneTime] [Dump folders to queue",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Blue Azure sFTP",
+      "[AQ] [BLUE] Folder Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHD] [ONEINT][QAS][SIS-KINOBI]",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Amazon S3 REST Kinobi File Upload",
+      "EduRec Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] - Retrieve AuthZ JWKS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS + MyInfo v4"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [AXeA] Send Alerts",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Class Batch Job",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "ECS Connection",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Class-Staff Batch Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis",
+      "ODSx (Oracle)",
+      "Rosetta"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Architecture, Application and Technology (AAT)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Class-Student Batch Job",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Course Batch Job",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "ECS Connection",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Course-Staff Batch Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis",
+      "ODSx (Oracle)",
+      "Rosetta"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Architecture, Application and Technology (AAT)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Course-Student Batch Job",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Data Import",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Blue Connection",
+      "ECS Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Staff Batch Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis",
+      "ODSx (Oracle)",
+      "Rosetta"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Architecture, Application and Technology (AAT)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Blue] (main) - Student Batch Job",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "ECS Connection",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [BLUE] Extract and Save",
+    "environments": [
+      "BIGMEM PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Boomi-IAM] On-boarding",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "My AtomSphere Account",
+      "NUS EXT Domain",
+      "NUS STF Domain",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "processName": "[SCHED] [Common] (main) - Boomi API Gateway Monitor",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [ECMS] (main) - ECMS-CHRS Integration (Contract Owner)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECMS Azure Blob Storage",
+      "ODSx (Oracle) DB V2",
+      "[ECMS] Atom Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [ECMS] (main) - ECMS-CHRS Integration (Full Load) (Contract Owner)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECMS Azure Blob Storage",
+      "ODSx (Oracle) DB V2",
+      "[ECMS] Atom Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [ECMS] (main) - ECMS-CHRS Integration (PASA Authority)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECMS Azure Blob Storage",
+      "NUS Exchange SMTP (IMAP)",
+      "ODSx (Oracle) DB V2",
+      "[ECMS] Atom Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [eColl to GDA3] - Read Message From eColl Queue",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "CloudAMQP",
+      "GDA3 SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [ELEMENTS-UIF] Staff User Import Feed - Delta Load",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Elements Server",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [EMNS] Whispir EMNS Data Feed",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2",
+      "Boomi API Gateway",
+      "Boomi MFT",
+      "ECS Connection",
+      "EduRec Server",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "[EMNS] Whispir SFTP Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Enterprise Systems (ES)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Cust Fund Code",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Cust Job Grade",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Cust Personnel Area",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Cust Personnel Sub Area",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Cust WBS",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Business Unit",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Company",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Cost Center",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Department",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Division",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Event Reason",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Frequency",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Job Code",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Job Function",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Location",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Pay Component",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Pay Grade",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) FO Pay Group",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Pay Scale Area",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Pay Scale Group",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Pay Scale Type",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Pick List Value V2",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Time Type",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Time Type Profile",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HR Data Lake Code Table] (IMPL) Work Schedule",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Data Lake EDL (SQL Server) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [HRCONNECT] [CERTIFICATE] Find_chang",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [HRCONNECT] [CHRS] Find_chang",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [iRIMS-FM-POSTING] Payroll Posting Expenses (Adhoc)",
+    "environments": [
+      "BIGMEM PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ECS Connection",
+      "[iRIMS-FM] Cayuse SFTP Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [iRIMS-FM-POSTING] Payroll Posting Expenses (Daily)",
+    "environments": [
+      "BIGMEM PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ECS Connection",
+      "[iRIMS-FM] Cayuse SFTP Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [iRIMS-FM-POSTING] Payroll Posting Expenses (Weekly)",
+    "environments": [
+      "BIGMEM PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ECS Connection",
+      "[iRIMS-FM] Cayuse SFTP Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [LibNSI] Process NSI",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Library sFTP server",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [MDM] BBCRM Views to ECS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [MDM] CHRS Views to ECS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [MDM] ECS Housekeeping",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [MDM] NUSHub to ECS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "NUS Exchange SMTP (IMAP)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] [MDM] Outbound to BBCRM",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [MDM] Outbound to NUSHub",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [NUSHUB] - EduRec Student Involvements",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [NUSync3] P1 Add Membership",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUS Redis",
+      "NUSYNC3_QUEUE",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [NUSync3] P1 Remove  Membership",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUS Redis",
+      "NUSYNC3_QUEUE",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [NUSync3] P2 Add Membership",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUS Redis",
+      "NUSYNC3_QUEUE",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [NUSync3] P2 Remove Membership",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CampusGroups Server",
+      "NUS Redis",
+      "NUSYNC3_QUEUE",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [NUSync3] Set Processing Period",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [SCM] EduRec Student Interface",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] - Acad (Year-Term-Session)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] - LearningProgram",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] - LearningProgramPlan",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] - LearningProgramSubPlan",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-001] - GDA3 Applications",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "GDA3 Server",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-002] - OAP Applications",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUSHub Elastic Search Queue",
+      "OAP Server",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-003] - L3AP Applications",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2",
+      "CloudAMQP Quorum",
+      "NUS Redis",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-004] - EduRec Student Profile",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-005-01] - CMS CET Micro Credential Programs",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-005-02] - CMS CET Short Courses",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-005-03] - CMS CPE Certificate Programs",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-005-04] - CMS Courses",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-005-05] - CMS Courses Attributes",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-005-05] - EduRec Config Programs",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-006] - GDA3 Program Offering",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "GDA3 Server",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-007] - OAP Program Offering",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue",
+      "OAP Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-008] - L3AP Course Offering",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP Quorum",
+      "NUS Redis",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [SOLID] [SS] [INT-009] Registration Of Interest",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2",
+      "CloudAMQP Quorum",
+      "NUS Redis",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [uNivUS Bitlocker] VMWService Bitlocker Batch Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "UNIVUS (SQL Server) V2",
+      "UNIVUS ES LOG Queue Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [uNivUS Bus] BUS Stops Batch Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "UNIVUS (SQL Server) V2",
+      "UNIVUS ES LOG Queue Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] [uNivUS Datalytics] Explore Widget Batch Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "UNIVUS ES LOG Queue Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [uNivUS PF] Update Profile Details Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "UNIVUS ES LOG Queue Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] [uNivUS] [Carpark] Start Get Carpark Job",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "UNIVUS ES LOG Queue Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] Canvas API - Backend - Data Send",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "BBCRM Service",
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Canvas API - Backend - Data Send v2",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "BBCRM Service",
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Canvas API - Backend - Data Send v3",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)",
+      "NUSHub - Salesforce - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Canvas CD2: Get Module Progressions",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas CD2",
+      "Canvas CD2 Warehouse",
+      "MongoDB - Canvas",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Canvas CD2: Get Modules",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas CD2",
+      "Canvas CD2 Warehouse",
+      "MongoDB - Canvas",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Canvas CD2: Get Users",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDB - Canvas",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] CANVAS-EHS_Monthly_Enrolment Report",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Create Sphera Student  -Add",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "Sphera Client"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[SCHED] Create Sphera Student -Delete",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "Sphera Client"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[SCHED] Create Sphera Student -Update",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "Sphera Client"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[SCHED] Create Sphera user Staff- Add RUN-4",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "Sphera Client"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[SCHED] EHS360_Find_changes_student",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] GDA3 - CHRS  (Full-Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "GDA3 SFTP",
+      "NUS Exchange SMTP (IMAP)",
+      "Zato3 Cluster"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] GDA3 - CHRS (Full-Load) - v2",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "Boomi API Gateway",
+      "GDA3 SFTP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] GDA3 Photo Status Send",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP Quorum",
+      "GDA3 SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Hrconnect- Staff-Daily Job ( People , Internal Association , Role)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Cayuse Authentication",
+      "Cayuse_Apiserver",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Hrconnect- Student-Daily Job ( People , Internal Association , Role)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Cayuse Authentication",
+      "Cayuse_Apiserver",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] Hrconnect_Find_changes",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] INF-BBCRM-Staff",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "BBCRM ESB Staging DB (SQL Server)",
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-BBCRM-Student-G",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "BBCRM ESB Staging DB (SQL Server)",
+      "EduRec Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS - Code Table (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-001 - Employment Info (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-001 - Employment Info (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-001 - Employment Info (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-002 - Per Global Info Sgp (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-002 - Per Global Info Sgp (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-002 - Per Global Info Sgp (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-003 - Per Person (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-003 - Per Person (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-003 - Per Person (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-004 - Per Personal (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-004 - Per Personal (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-004 - Per Personal (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-005 - Employment Job (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-005 - Employment Job (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-005 - Employment Job (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-006 - Cust Education (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-006 - Cust Education (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-006 - Cust Education (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-007 - Cust Education Detail (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-007 - Cust Education Detail (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-007 - Cust Education Detail (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-008 - Per Email (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-008 - Per Email (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-008 - Per Email (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-009 - Per Phone (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-009 - Per Phone (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-009 - Per Phone (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-010 - Per Address (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-010 - Per Address (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-010 - Per Address (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-011 - Cust Promotion Tenure Parent (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-011 - Cust Promotion Tenure Parent (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-011 - Cust Promotion Tenure Parent (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-012 - Cust Promotion Tenure (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-012 - Cust Promotion Tenure (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-012 - Cust Promotion Tenure (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-013 - Cust MTAR (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-013 - Cust MTAR (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-013 - Cust MTAR (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-014 - Cust PT Application (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-014 - Cust PT Application (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-014 - Cust PT Application (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-015 - Cust Tenure Clock Ext (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-015 - Cust Tenure Clock Ext (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-015 - Cust Tenure Clock Ext (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-016 - Per National ID (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-016 - Per National ID (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-016 - Per National ID (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-017 - Per Work Permit (AdHoc Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-017 - Per Work Permit (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-CHRS-ODS-017 - Per Work Permit (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] INF-KMS-001 - Generate JWKS Key (V2)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS + Singpass/MyInfo v4 (DSP V4)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] INF-KMS-002 - Clean Up JWKS Key (V2)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] INF-KMS-003 - Send Reminder",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] INF-SINGPASS-LOGIN-004 - Retrieve and Cache Singpass Login JWKS (V4-2)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS + Singpass/MyInfo v4 (DSP V4)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] INF-SINGPASS-MYINFO-001 - Retrieve AuthZ JWKS (V4-2)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS + Singpass/MyInfo v4 (DSP V4)",
+      "NUS Redis"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED] IRIMS_Hrconnect_Fetch_Student Data Daily(Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] MyUHC - Staff (Ad hoc)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "MyUHC SFTP",
+      "NUS Redis",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] MyUHC - Staff (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "MyUHC SFTP",
+      "NUS Redis",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] MyUHC - Staff (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "MyUHC SFTP",
+      "NUS Redis",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] MyUHC - Student (Ad hoc)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "EduRec Server",
+      "MyUHC SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] MyUHC - Student (Delta Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "EduRec Server",
+      "MyUHC SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED] MyUHC - Student (Full Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "EduRec Server",
+      "MyUHC SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[sched] OneID Integration",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "Boomi API Gateway"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED] Retrieve and Cache Singpass Login JWKS",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS + Singpass Login"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED]-[SOLID]-[CHRS]-[ODS]-Staff-Profile",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "ADMx (Oracle) DB V2",
+      "NUSHub Elastic Search Queue",
+      "ODSx (Oracle)",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][BOSS] Get Ext Staff and Save",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2",
+      "ECS Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Backup Group Data",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Check SIS Import Status",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Create User from List",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "BBCRM Service",
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Create User from List V2",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)",
+      "NUSHub - Salesforce - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Lumi2Boomi - Start",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP Quorum",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Suspend User",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas CD2",
+      "Canvas CD2 Warehouse",
+      "Canvas Server",
+      "NUS Exchange SMTP (IMAP)",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Update Staff Photo",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "Canvas File Server",
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas] - Update Student Photo",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "Canvas File Server",
+      "Canvas Server",
+      "CloudAMQP",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][Canvas][EHS360] Daily Job",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "NUS Exchange SMTP (IMAP)",
+      "Rivo SOAP Service"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[Sched][CTR/CAS][UHMS]Respect&Consent",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP Quorum",
+      "UHMS Cloud Server",
+      "UHMS UCI_HS_UHMS (SQL Server) V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][HRCONNCT][ORCID] ELEMENTS to MONGODB (Fullload)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Elements Server",
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][HRCONNECT]- Certificate-Daily Job",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Cayuse Authentication",
+      "Cayuse_Apiserver",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][HRCONNECT]CHRS to MONGO DB(full load)",
+    "environments": [
+      "PRD",
+      "BIGMEM PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED][HRCONNECT]Extract training",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "Rivo Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "External Parties"
+    ]
+  },
+  {
+    "processName": "[SCHED][iRIMS-Elements] (main) - Elements publication to iRIMS",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Elements Server",
+      "NUS Exchange SMTP (IMAP)",
+      "iRIMS REST Connection",
+      "iRIMS Signin Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][iRIMS-Elements] (main) - Sync Awards to Elements",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Elements Server",
+      "NUS Exchange SMTP (IMAP)",
+      "iRIMS REST Connection",
+      "iRIMS Signin Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][LA] - CD2 Data Extraction",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas CD2",
+      "Canvas CD2 Warehouse",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][LA]-CD2Extraction_Snapshot",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas CD2",
+      "Canvas CD2 Warehouse",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][LA]-CD2Extraction_WebLogs",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas CD2",
+      "Canvas CD2 Warehouse",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][LDAP] GET all LDAP records Staff RUN-1",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS STF Domain"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "processName": "[SCHED][LDAP]CHRS to MONGO DB for EHS(full load) RUN-2",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SCHED][NUSHUB] - Get Business Roles",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Helix Server",
+      "NUSHub - Salesforce - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Enterprise Systems",
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][NUSHUB] - Get Departments",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Helix Server",
+      "NUSHub - Salesforce - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Enterprise Systems",
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][NUSHUB] - Get User Roles",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Helix Server",
+      "NUSHub - Salesforce - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Enterprise Systems",
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][SAFE] - VIRTUAL-APPS",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MS GraphAPI - Sharepoint",
+      "Safe Virtual APP FTP V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "processName": "[SCHED][SHMS][CHRS-69 DATA MOVED TO MONGODB]",
+    "environments": [
+      "BIGMEM PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "[SCHED][SHMS][CHRS] DEMOGRAPPHIC_DAILYUPDATE",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "SHMS Cloud Server",
+      "iSilon Server",
+      "shms_Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][SOLID] - CMIS Timetable to NUSHub",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][SOLID] - OnBoarding Application",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][SOLID] - Student Learner Program",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][SOLID]- Student Service Indicator",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUSHub Elastic Search Queue",
+      "SOLID - Salesforce REST Connection - OAuth 2.0"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][SOLID][SS][INT-005-006] - CMS Learning  Groups - Version",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "NUSHub - Salesforce - OAuth 2.0",
+      "NUSHub Elastic Search Queue"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Ecoll2 HM01",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Ecoll2 HM02",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Ecoll2 HM03",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Ecoll2 HM04",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Ecoll2 HM05",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Ecoll2 HM07",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Hostel Resident",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2",
+      "Data Lake EDW_STG (SQL Server) DB V2",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] ODS Hostel Master",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle) DB V2",
+      "Data Lake EDW_STG (SQL Server) DB V2",
+      "UHMS Cloud Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Photo Import",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "NUS Exchange SMTP (IMAP)",
+      "UHMS Cloud Server",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Student Demographic - DB",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "NUS Exchange SMTP (IMAP)",
+      "UHMS UCI_HS_UHMS (SQL Server) V2",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)",
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED][UHMS] Student Demographic - FH",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)",
+      "UHMS Cloud Server",
+      "UHMS UCI_HS_UHMS (SQL Server) V2",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "[SCHED]GEVME-BBCRM-Daily Job ( Existing Records)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "(conn) Gev-Me (No Auth)",
+      "(conn) GevMe No Auth(REST)",
+      "BBCRM Service",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[SCHED]GEVME-BBCRM-Daily Job ( New Records)",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "(conn) Gev-Me (No Auth)",
+      "(conn) GevMe No Auth(REST)",
+      "BBCRM Service",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "[sub] ADM - Encrypt and Publish Message",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP Quorum"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SUB] Get Boomi Process Log and Send to iSilon",
+    "environments": [
+      "Production APIM",
+      "PRD"
+    ],
+    "connectors": [
+      "CONN - Boomi Process Log Queue",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[SUB] Hrconnect- Staff Role",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Cayuse_Apiserver",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "[SUB] ODS - Per Person",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Zato GraphQL"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[TS] Staff ID Mapping",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ODSx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[TS] Test - Staff Process (Full Load) Dry Run",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ECS Connection",
+      "ODSx (Oracle) DB V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "[VCS] (impl) Get Staff by ID",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS STF Domain"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Infrastructure"
+    ]
+  },
+  {
+    "processName": "Archibus SPM - CHRS  (Full-Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "NUS Exchange SMTP (IMAP)",
+      "Zato3 Cluster"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Archibus SPM - CHRS (Delta-Load)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "NUS Exchange SMTP (IMAP)",
+      "Zato3 Cluster"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Archibus SPM - CHRS (Full-Load) V2",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "Boomi API Gateway",
+      "NUS Exchange SMTP (IMAP)",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Canvas API - Backend - Data Request",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "CloudAMQP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Canvas-move-DB",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Canvas_LMS",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "CPI",
+      "Canvas Server",
+      "NUS Exchange SMTP (IMAP)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "HR and Finance Systems",
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "CD2 quiz submission extraction",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas CD2",
+      "Canvas CD2 Warehouse",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Check SFTP Service Completion",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Check SIS Import Status [Step 10]",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP Quorum",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Check SIS Import Status [Step 13]",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP Quorum",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Check SIS Import Status [Step 5]",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP Quorum",
+      "NUS Exchange SMTP (IMAP)",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "CHRS Door Access",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)",
+      "iSilon Server",
+      "sftp44.sapsf.com"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "HR and Finance Systems"
+    ]
+  },
+  {
+    "processName": "Demographic_update",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "shms_Connection"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Professional Activity (Ad-Hoc)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Symplectic SFTP",
+      "dotNet Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Professional Activity (Daily)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Symplectic SFTP",
+      "dotNet Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Professional Activity (One Time Migration)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Symplectic SFTP",
+      "dotNet Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Profile (Ad-Hoc)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Symplectic SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Profile (Daily)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Symplectic SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Profile (Daily) V2",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "Elements Server",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Symplectic SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Profile (One Time Migration)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Boomi API Gateway",
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Symplectic SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Teaching (Ad-Hoc)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Rosetta",
+      "Symplectic SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Architecture, Application and Technology (AAT)",
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Teaching (Daily)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Rosetta",
+      "Symplectic SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Architecture, Application and Technology (AAT)",
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "Discovery - Teaching (One Time Migration)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "MongoDBx - ESB Boomi",
+      "NUS Exchange SMTP (IMAP)",
+      "Rosetta",
+      "Symplectic SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Architecture, Application and Technology (AAT)",
+      "Faculty and Research Systems (FRS)"
+    ]
+  },
+  {
+    "processName": "GDA3 - EduRec (NSI)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "EduRec Server",
+      "GDA3 SFTP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Get Users",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "IRAS- BBCRM  Retrive Donation data",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "BBCRM Service"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "Local Account - Purge Verification Code",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "UASx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Panopto sessionsviewsbyusers extraction",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Panopto Server",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Panopto sessionusage extraction",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Panopto Server",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Panopto sessionusage query",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Panopto Server",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Panopto systemsessionstorage extraction",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Panopto Server",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Provisioning Reports (NAS)",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "SCM - CHRS Interface",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "ADMx (Oracle)",
+      "Boomi API Gateway"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Space Occupancy Dashboard Send Q",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "Space Occupancy AQ Connection",
+      "iSilon Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Sub: Extract Users from CSV",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "Canvas Server",
+      "CloudAMQP"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "Sub: Salto STP SHIP",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [],
+    "source": "",
+    "target": "",
+    "proposedTowers": []
+  },
+  {
+    "processName": "Sub: SSG - Add Course Run",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "SSG Server"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Student Systems (SS)"
+    ]
+  },
+  {
+    "processName": "UHMS Matriculated Student Sync",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "NUS Exchange SMTP (IMAP)",
+      "UHMS Cloud Server",
+      "UHMS UCI_HS_UHMS (SQL Server) V2"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Corporate Systems (CS)"
+    ]
+  },
+  {
+    "processName": "Verify User",
+    "environments": [
+      "Production APIM"
+    ],
+    "connectors": [
+      "ADMx (Oracle)"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  },
+  {
+    "processName": "Z:ErrorQ extraction",
+    "environments": [
+      "PRD"
+    ],
+    "connectors": [
+      "CloudAMQP Quorum",
+      "MongoDBx - ESB Boomi"
+    ],
+    "source": "",
+    "target": "",
+    "proposedTowers": [
+      "Common Systems"
+    ]
+  }
+]
