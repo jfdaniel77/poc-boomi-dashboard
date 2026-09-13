@@ -1,21 +1,21 @@
 import { render as renderOverview }    from './widgets/overview.js';
-import { render as renderConnections } from './widgets/connections.js';
+import { render as renderSource }      from './widgets/source.js';
+import { render as renderSubscriber }  from './widgets/subscriber.js';
 import { render as renderTopology }    from './widgets/topology.js';
 
 const TABS = [
-  { id: 'overview',    render: renderOverview },
-  { id: 'connections', render: renderConnections },
-  { id: 'topology',    render: renderTopology },
+  { id: 'overview',   render: renderOverview },
+  { id: 'source',     render: renderSource },
+  { id: 'subscriber', render: renderSubscriber },
+  { id: 'topology',   render: renderTopology },
 ];
 
-let gApiConnections = [];
-let gScheduledJobs  = [];
-let currentGroup    = 'all';
-let currentTab      = 'overview';
+let gData      = null;
+let currentTab = 'overview';
 
 function _activateTab() {
   const tab = TABS.find(t => t.id === currentTab);
-  if (tab) tab.render({ apiConnections: gApiConnections, scheduledJobs: gScheduledJobs }, currentGroup);
+  if (tab && gData) tab.render(gData);
 }
 
 function _buildTabBar() {
@@ -34,27 +34,18 @@ function _buildTabBar() {
   });
 }
 
-function _wireGroupSelector() {
-  document.querySelectorAll('.group-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      currentGroup = btn.dataset.group;
-      document.querySelectorAll('.group-btn').forEach(b => b.classList.toggle('active', b === btn));
-      _activateTab();
-    });
-  });
-}
-
 document.addEventListener('DOMContentLoaded', async () => {
   _buildTabBar();
-  _wireGroupSelector();
 
   try {
     const [apiRes, schedRes] = await Promise.all([
       fetch('./data/api-connections.json'),
       fetch('./data/scheduled-jobs.json'),
     ]);
-    gApiConnections = await apiRes.json();
-    gScheduledJobs  = await schedRes.json();
+    gData = {
+      apiConnections: await apiRes.json(),
+      scheduledJobs:  await schedRes.json(),
+    };
 
     const ts = new Date().toLocaleString('en-SG', {
       timeZone: 'Asia/Singapore', dateStyle: 'medium', timeStyle: 'short',
